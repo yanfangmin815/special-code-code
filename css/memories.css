@@ -433,9 +433,8 @@
 @media screen and (min-aspect-ratio: 10/9) {
 	.ly-txt01 {
 		position:absolute;
-		width: 40%;
-		left:10%;
-		top:10%;
+		width: 100%;
+		text-align: center;
 	}
 	
 	.ly-txt02 {
@@ -449,9 +448,8 @@
 @media screen and (max-aspect-ratio: 3/4) {
 	.ly-txt01 {
 		position:absolute;
-		width: 40%;
-		left:10%;
-		top:5%;
+		width: 100%;
+		text-align: center;
 	}
 	
 	.ly-txt02 {
@@ -475,7 +473,6 @@
 	font-size: 30px;
 	font-color: #000;
 	position: relative;
-	left: 5%;
 	top: 5%;
 	opacity: 0;
 	animation:ly-stxt01_move 15s;
@@ -2819,6 +2816,7 @@
 
 	.ly-box81 p, .ly-box82 p {
 		font-size: 3.1vw !important;
+		margin-top: 0;
 	}
 }
 
